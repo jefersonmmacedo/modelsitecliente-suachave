@@ -1,0 +1,50 @@
+﻿.ProcessProperty {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    margin: 40px auto;
+    flex-wrap: wrap;
+}
+.ProcessProperty .processUnic {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    height: 80px;
+}
+
+.ProcessProperty .processUnic h3 {
+    font-weight: 700;
+    color: var(--Paragraph);
+}
+.ProcessProperty .processUnic h5 {
+    font-weight: 600;
+    color: var(--Gray);
+}
+.ProcessProperty .processUnic h6 {
+    color: var(--Gray);
+    margin: 5px 0;
+}
+.ProcessProperty .processUnic svg {
+    font-size: 24px;
+    color: var(--Primary);
+    margin: 5px 0;
+}
+
+@media (max-width: 1000px) {
+    .ProcessProperty {
+        width: 100%;
+    }
+    @media (max-width: 450px) {
+        .ProcessProperty .processUnic {
+            width: 80%;
+            margin: 5px;
+        }
+        
+}
+}
