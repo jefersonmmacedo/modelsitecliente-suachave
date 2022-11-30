@@ -1,5 +1,6 @@
 ﻿import "./footer.css";
 import logo from '../../assets/images/LogoSuaChave.png';
+import logo1 from '../../assets/images/Logo.png';
 import {IoCallOutline, IoLogoWhatsapp, IoMailOutline, IoLogoFacebook, IoLogoInstagram, IoLogoTwitter, IoLogoLinkedin, IoLogoYoutube, IoLocationOutline, IoSendOutline} from 'react-icons/io5';
 import {AiOutlineSend} from 'react-icons/ai';
 
@@ -12,7 +13,7 @@ export function Footer() {
         <div className="Footer">
                 <div className="sections">
                         <div className="sectionUnic">
-                        <a href="/"><img src={logo} alt="" /></a>
+                        <a href="/"><img src={logo1} alt="" /></a>
                             <h5> <b>Encontre imóveis, imobiliárias e corretores em poucos cliques!</b> </h5>
                             <br />
                             <div className="network">
