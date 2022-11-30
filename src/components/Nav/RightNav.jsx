@@ -76,7 +76,7 @@ const Ul = styled.ul`
 
   @media (max-width: 870px) {
     flex-flow: column nowrap;
-    background: rgba(237, 50, 55, 0.95);
+    background: rgba(141, 37, 148, 0.95);
     backdrop-filter: blur(4px);
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
