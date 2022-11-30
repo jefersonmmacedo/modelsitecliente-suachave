@@ -10,7 +10,7 @@ export function TopHeadHome() {
             <div className="blockTop">
             <div className="SearchText">
                 <div className="TextTopSearch">
-                <h1>Seu novo imóvel, você encontra aqui!</h1>
+                <h1>Seu novo imóvel <br />Você encontra aqui!</h1>
                 <h4>Mais de 5000 imóveis disponíveis para você!</h4>
                 <h4>Casas, apartamentos, fazendas lotes, lojas, salas comerciais e muito mais.</h4>
 

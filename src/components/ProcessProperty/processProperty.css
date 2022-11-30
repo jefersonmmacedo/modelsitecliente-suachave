@@ -2,10 +2,20 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    width: 1000px;
+    justify-content: space-between;
+    width: 1080px;
     margin: 40px auto;
     flex-wrap: wrap;
+}
+.ProcessProperty .processUnicText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    height: 80px;
 }
 .ProcessProperty .processUnic {
     display: flex;
@@ -18,7 +28,7 @@
     height: 80px;
 }
 
-.ProcessProperty .processUnic h3 {
+.ProcessProperty .processUnicText h3 {
     font-weight: 700;
     color: var(--Paragraph);
 }
@@ -26,7 +36,7 @@
     font-weight: 600;
     color: var(--Gray);
 }
-.ProcessProperty .processUnic h6 {
+.ProcessProperty .processUnicText h6 {
     color: var(--Gray);
     margin: 5px 0;
 }
@@ -36,15 +46,36 @@
     margin: 5px 0;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1095px) {
     .ProcessProperty {
-        width: 100%;
+        width: 90%;
+        
     }
-    @media (max-width: 450px) {
+    @media (max-width: 990px) {
+    .ProcessProperty {
+        width: 95%;
+        
+    }
+    @media (max-width: 935px) {
+        .ProcessProperty {
+            justify-content: center;
+            
+        }
+
+        .ProcessProperty .processUnicText {
+            width: 100%;
+            margin: 5px 10px;
+        }
+        .ProcessProperty .processUnic {
+            margin: 5px;
+        }
+    @media (max-width: 460px) {
         .ProcessProperty .processUnic {
             width: 80%;
             margin: 5px;
         }
         
+}
+}
 }
 }

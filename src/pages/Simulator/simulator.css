@@ -168,12 +168,12 @@
 .Simulator .stepesFinances .stepeUnic h1 {
     font-weight: 900;
     font-size: 65px;
-    color: var(--BorderInput);
+    color: var(--PrimaryCharacteristcs);
 }
 .Simulator .stepesFinances .stepeUnic2 h1 {
     font-weight: 900;
     font-size: 65px;
-    color: var(--BorderInput);
+    color: var(--PrimaryCharacteristcs);
 }
 
 .Simulator .stepesFinances .stepeUnic .textStepe {

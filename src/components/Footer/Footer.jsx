@@ -1,10 +1,7 @@
 ﻿import "./footer.css";
-import logo from '../../assets/images/Logo.png';
+import logo from '../../assets/images/LogoSuaChave.png';
 import {IoCallOutline, IoLogoWhatsapp, IoMailOutline, IoLogoFacebook, IoLogoInstagram, IoLogoTwitter, IoLogoLinkedin, IoLogoYoutube, IoLocationOutline, IoSendOutline} from 'react-icons/io5';
 import {AiOutlineSend} from 'react-icons/ai';
-import google from "../../assets/images/google.png";
-import apple from "../../assets/images/apple.png";
-
 
 export function Footer() {
     const Local = localStorage.getItem("suachave");
@@ -53,7 +50,13 @@ export function Footer() {
                 </div>
                 <div className="copy">
                     <h5>© Sua Chave {date}. Todos os direitos reservados</h5>
-                    <h5><a href="https://suachave.com.br/sobre">Anunciar imóvel</a></h5>
+
+                    <div className="dev">
+                    <h5>Feito por:</h5>
+                    <a href="https://suachave.com.br" target="_blank" rel="noreferrer">
+                        <img src={logo} alt="Logo Sua chave" />
+                    </a>
+                    </div>
                 </div>
         </div>
     )

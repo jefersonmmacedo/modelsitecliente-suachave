@@ -60,7 +60,7 @@ export function Avaluation() {
             </div>
 
             <div className="stepesFinances">
-                            <h2>avalie  <span>seu imóvel</span> com a gente</h2>
+                            <h2>Avalie  <span>seu imóvel</span> com a gente</h2>
                 <h4>Facilite seu processo de negociação com uma avaliação profissional.</h4>
 
                 <button> <img src={Zap} alt="Imagem logo whatsapp" /> Entre em contato com a gente</button>

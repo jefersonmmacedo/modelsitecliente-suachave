@@ -15,8 +15,8 @@ export function About() {
             <Navbar2 />
             <div className="topImageAbout">
                 <div className="back">
-            <h1>Nós temos o imóvel dos seus sonhos!</h1>
-                <h3>E também as melhores oções de financiamento.</h3>
+            <h1>Nós somos a Imobiliária Rio Bonito!</h1>
+                <h3>Temos as melhores opçoes de imóveis na região.</h3>
                 </div>
             </div>
 

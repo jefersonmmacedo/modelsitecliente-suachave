@@ -177,7 +177,7 @@
     width: 90%;
     border: none;
     border-top: 2px solid var(--BorderInput);
-    padding: 40px;
+    padding: 5px 40px;
 }
 
 .Footer .copy h5 {
@@ -194,6 +194,35 @@
 .Footer .copy h5 a:hover {
     color: var(--Primary);
 }
+
+.Footer .copy .dev {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+    border: none;
+    padding: 10px;
+}
+.Footer .copy .dev h5 {
+    color: var(--Paragraph);
+    font-weight: 700;
+    margin-right: 5px;
+    
+}
+.Footer .copy .dev h5 a {
+    color: var(--Primary);
+    text-decoration: none;
+    font-weight: 560;
+
+}
+.Footer .copy .dev h5 a:hover {
+    color: var(--Primary);
+}
+
+.Footer .copy .dev a img {
+    height: 25px;
+}
+
 
 @media (max-width: 1280px) {
     .Footer .sections {
