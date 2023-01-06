@@ -1,4 +1,4 @@
-import "./sliderHome.css";
+import "./sliderHome2.css";
 import {IoCrop, IoArrowBack, IoArrowForward, IoLocationOutline, IoBedOutline, IoCarSportOutline} from 'react-icons/io5';
 import {TfiRulerAlt2} from 'react-icons/tfi';
 import {MdOutlineShower} from 'react-icons/md';
@@ -8,7 +8,7 @@ import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import { useFetch } from "../../hooks/useFetch";
 
-function SliderHome() {
+function SliderHome2() {
     const availability = "Disponível";
 
     const {data} = useFetch(`/property/all/${availability}`);
@@ -42,13 +42,13 @@ const properties = {
           {data?.map((property) => {
             return (
                 <div className="each-slide-effect" key={property.id}>
-          <div className="imageTop">
+          <div className="imageTop2">
             <div className="image">
                  <a href={`/imovel/${property.id}`}>
                     <img src={property.featuredImage} alt="" />
                 </a>
             </div>
-                <div className="blockSlider">
+                <div className="blockSlider2">
                 {new Date(property?.created_at).getDate() === new Date().getDate() &&
                     new Date(property?.created_at).getMonth() === new Date().getMonth() &&
                     new Date(property?.created_at).getFullYear() === new Date().getFullYear()
@@ -127,4 +127,4 @@ const properties = {
 };
   
 
-  export { SliderHome }
+  export { SliderHome2 }

@@ -1,11 +1,11 @@
-﻿import "./searchPropertyHomeTop.css";
+﻿import "./searchPropertyHomeTop2.css";
 import { useState } from "react";
 import {IoSearch, IoAddOutline, IoRemoveOutline} from "react-icons/io5";
 import { useFetch } from "../../hooks/useFetch";
 import { toast } from "react-toastify";
 import { TbBone, TbSofa } from "react-icons/tb";
 
-export function SearchPropertyHomeTop() {
+export function SearchPropertyHomeTop2() {
     const [isCheckedPets, setIsCheckedPets] = useState(false);
     const [isCheckedFurnished, setIsCheckedFurnished] = useState(false);
 
@@ -164,7 +164,7 @@ export function SearchPropertyHomeTop() {
     }
 
     return (
-        <div className="SearchPropertyHomeTop">
+        <div className="SearchPropertyHomeTop2">
             <div className="selectButtonsHomeTop">
             <button className={status === "Venda" ? "btn" : "btn1"} onClick={() => handleActiveCode(false, "Venda")}>Venda</button>
             <button className={status === "Aluguel" ? "btn2" : ""} onClick={() => handleActiveCode(false, "Aluguel")}>Aluguel</button>

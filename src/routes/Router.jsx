@@ -10,6 +10,8 @@ import { UploadPage } from '../pages/UploadPage/UploadPage';
 import { NotFound } from '../pages/NotFound/NotFound';
 import { Avaluation } from '../pages/Avaluation/Avaluation';
 import { About } from '../pages/About/About';
+import { Home2 } from '../pages/Home2/Home2';
+import { Home3 } from '../pages/Home3/Home3';
 
 
 function Router () {
@@ -27,6 +29,8 @@ function PrivateRoute({children} ) {
             <Route path="/home" element={<ComingSoon />}/>
             <Route path="/up" element={<UploadPage />}/>
             <Route path="/" element={<Home />}/>
+            <Route path="/v2" element={<Home2 />}/>
+            <Route path="/v3" element={<Home3 />}/>
             <Route path="/imoveis/:status" element={<Properties />}/>
             <Route path="/imovel/:id" element={<Property />}/>
             <Route path="/corretores" element={<Brokers />}/>
